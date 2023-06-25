@@ -1,14 +1,15 @@
-import { Radio } from 'react-loader-spinner';
+import { Circles } from 'react-loader-spinner';
 
 export const Loader = () => {
   return (
-    <Radio
-  visible={true}
+   <Circles
   height="80"
   width="80"
-  ariaLabel="radio-loading"
+  color="#3f51b5"
+  ariaLabel="circles-loading"
   wrapperStyle={{}}
   wrapperClass="Loader"
-    />
+  visible={true}
+/>
   );
 };
